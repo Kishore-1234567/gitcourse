@@ -26,8 +26,14 @@ git show					-	Shows what are the lines deleted &  inserted
 
 
 
-BRANCHING CONCEPTS :
+BRANCHING & Merging CONCEPTS :
 
 git branch			 -	List all the branches in the repo
 git branch BRANCH_NAME	 -	To create a new branch
 git checkout BRANCH_NAME -	To move to the particular branch
+git branch -d BRANCH_NAME- 	To delete the branch
+git branch -D BRANCH_NAME- 	To force delete the branch
+git branch --merged	 -	Show what are the branches merged
+git branch --no-merged	 -	Shows what is the branch not merged
+git merge BRANCH_NAME	 -	Merge the branch with the master
+git merge BRANCH_NAME --no-ff	     -	Merge the branch with the master using fast forward tecnique
