@@ -17,3 +17,5 @@ git commit -m'COMMENT'	-	To commit the files with a message
 
 git remote add origin REPO_URL	- 	Adds the origin repo to the given URL
 git push origin master		 	-	Push the committed files to the origin repo
+git  pull REPO_URL			-	Pull the files from the origin 
+git show					-	Shows what are the lines deleted &  inserted
