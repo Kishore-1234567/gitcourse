@@ -11,5 +11,9 @@ git init				-	Initialize empty git repository (local repo)
 git add 'FILENAME'		-	To add a file to the staging state 
 git add .				-	To add all files to the staging state
 git status				-	To check the status of the files 
-git log					-	To check overview of repository
+git log					-	To check overview of Repository
 git commit -m'COMMENT'	-	To commit the files with a message
+
+
+git remote add origin REPO_URL	- 	Adds the origin repo to the given URL
+git push origin master		 	-	Push the committed files to the origin repo
