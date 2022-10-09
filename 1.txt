@@ -1,0 +1,15 @@
+BASIC :
+
+mkdir FOLDER_NAME		-	Create a Folder
+touch FILE_NAME.format	-	Create a file 
+cd 'FOLDER_TO_WORK'		-	Change the directory
+ls	-	List all the files in the current directory
+
+GIT :
+
+git init				-	Initialize empty git repository (local repo)
+git add 'FILENAME'		-	To add a file to the staging state 
+git add .				-	To add all files to the staging state
+git status				-	To check the status of the files 
+git log					-	To check overview of repository
+git commit -m'COMMENT'	-	To commit the files with a message
